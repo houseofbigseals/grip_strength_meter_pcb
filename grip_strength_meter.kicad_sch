@@ -1,0 +1,132 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1f4b217c-5456-4c03-a123-3ef9839449c6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 92.71 80.01) (size 29.21 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 323d0f8b-f8da-4e0b-93e2-3b72c25d9812)
+    (property "Sheetname" "mcu_buttons_leds" (at 92.71 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu_buttons_leds.kicad_sch" (at 92.71 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 49.53 120.65) (size 29.21 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4e936500-8830-4ef1-9c08-090defb3e135)
+    (property "Sheetname" "tp4056" (at 49.53 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tp4056.kicad_sch" (at 49.53 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 120.65) (size 29.21 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a02de93d-be3e-497f-8fe4-9b8c9d80054a)
+    (property "Sheetname" "dc_dc" (at 92.71 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dc_dc.kicad_sch" (at 92.71 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 137.16 80.01) (size 27.94 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be89fd7b-2592-4316-b70c-ad72966b46b6)
+    (property "Sheetname" "dac_mcp2716" (at 137.16 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dac_mcp2716.kicad_sch" (at 137.16 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 39.37) (size 27.94 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c230759c-e1af-4cfc-a309-bba7f080798c)
+    (property "Sheetname" "adc_hx711" (at 92.71 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "adc_hx711.kicad_sch" (at 92.71 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND" input (at 92.71 46.99 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 366ffa70-60a7-4cd7-8e2c-0d4e59faba7d)
+    )
+    (pin "5V" input (at 92.71 50.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c508a9d3-e030-476d-bb73-6358bf6b57bd)
+    )
+    (pin "PD_SCK" input (at 92.71 54.61 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4ff6309b-b1a5-488e-984e-5cf5f7dab210)
+    )
+    (pin "DOUT" input (at 92.71 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ba2aadef-8af3-4608-b765-960ea3ac55d6)
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 49.53 80.01) (size 29.21 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c4e52578-194d-4bcb-8b62-a4d6dc625100)
+    (property "Sheetname" "usb_cp2102" (at 49.53 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_cp2102.kicad_sch" (at 49.53 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
