@@ -1320,7 +1320,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b967e4cd-4cf4-41b6-ac5b-649e8f4c2843)
-    (property "Reference" "TP_5V" (at 182.88 57.15 0)
+    (property "Reference" "TP_3V3" (at 182.88 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 194.31 58.9279 0)
@@ -1336,7 +1336,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "TP_5V") (unit 1)
+          (reference "TP_3V3") (unit 1)
         )
       )
     )
