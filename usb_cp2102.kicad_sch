@@ -639,99 +639,32 @@
         )
       )
     )
-    (symbol "LESD5D5.0CT1G:LESD5D5.0CT1G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at -5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "LESD5D5.0CT1G" (at -5.08 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "TVS_LESD5D5.0CT1G" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "PARTREV" "O" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MANUFACTURER" "LRC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (property "STANDARD" "Manufacturer Recommendations" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "LESD5D5.0CT1G_0_0"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0.1524) (type default))
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
           (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy -0.254 -1.016)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy 0 0.762)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0.254 1.016)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy -1.27 -0.762)
-            (xy -1.27 0.762)
-            (xy 0 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 1.27 0.762)
-            (xy 1.27 -0.762)
-            (xy 0 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
         )
       )
     )
@@ -1191,8 +1124,8 @@
   (no_connect (at 96.52 52.07) (uuid 7940308a-9ca1-4d9b-995f-5ae229ca80aa))
   (no_connect (at 96.52 90.17) (uuid 8e942183-0909-427f-86f0-9b3231067117))
   (no_connect (at 63.5 163.83) (uuid 9c9a3ea6-81ae-4c91-973a-f3c05faaaa95))
-  (no_connect (at 275.59 73.66) (uuid a1e1291c-99a8-475e-8d08-6a1e42c7aad8))
-  (no_connect (at 275.59 68.58) (uuid a4bb7390-449c-4ef9-aeee-ac646ab470b6))
+  (no_connect (at 273.05 62.23) (uuid a1e1291c-99a8-475e-8d08-6a1e42c7aad8))
+  (no_connect (at 273.05 57.15) (uuid a4bb7390-449c-4ef9-aeee-ac646ab470b6))
   (no_connect (at 96.52 74.93) (uuid b079af66-8a44-4801-b4e8-ff5f661a147b))
   (no_connect (at 96.52 97.79) (uuid b34b7e5e-99f8-4992-b776-773c4f459334))
   (no_connect (at 96.52 82.55) (uuid b8e00e1c-a0e3-4e3b-80bc-7d4bf41909d9))
@@ -1211,11 +1144,11 @@
     (stroke (width 0) (type default))
     (uuid 08be8b9a-906e-4062-ae99-19ac19a8fbc4)
   )
-  (wire (pts (xy 194.31 46.99) (xy 213.36 46.99))
+  (wire (pts (xy 182.88 46.99) (xy 213.36 46.99))
     (stroke (width 0) (type default))
     (uuid 0aeccd85-8a22-43e7-af42-bad52501c4dd)
   )
-  (wire (pts (xy 80.01 173.99) (xy 80.01 181.61))
+  (wire (pts (xy 80.01 172.72) (xy 80.01 181.61))
     (stroke (width 0) (type default))
     (uuid 10aae09e-1b80-4a76-8def-8a20b35c3479)
   )
@@ -1227,17 +1160,17 @@
     (stroke (width 0) (type default))
     (uuid 16c6d134-8056-4d7e-b3a1-beee003cd777)
   )
-  (wire (pts (xy 80.01 133.35) (xy 83.82 133.35))
-    (stroke (width 0) (type default))
-    (uuid 18b650ba-f270-4fe8-bb8c-ee3dabdbdff0)
-  )
   (wire (pts (xy 110.49 133.35) (xy 119.38 133.35))
     (stroke (width 0) (type default))
     (uuid 1a4b46ae-aa86-4f6d-9612-85fe9a20afed)
   )
-  (wire (pts (xy 119.38 160.02) (xy 119.38 181.61))
+  (wire (pts (xy 119.38 158.75) (xy 119.38 181.61))
     (stroke (width 0) (type default))
     (uuid 1eaccdd4-a798-4d59-8863-b70f3863e61c)
+  )
+  (wire (pts (xy 119.38 133.35) (xy 119.38 151.13))
+    (stroke (width 0) (type default))
+    (uuid 20306c52-3780-4a39-9182-5f71dbc0abac)
   )
   (wire (pts (xy 208.28 63.5) (xy 208.28 66.04))
     (stroke (width 0) (type default))
@@ -1339,10 +1272,6 @@
     (stroke (width 0) (type default))
     (uuid 5beac56b-0702-4393-b1e8-c1356c281219)
   )
-  (wire (pts (xy 119.38 133.35) (xy 119.38 149.86))
-    (stroke (width 0) (type default))
-    (uuid 5d8d14d7-6f27-45e0-9c14-37560658079f)
-  )
   (wire (pts (xy 25.4 57.15) (xy 38.1 57.15))
     (stroke (width 0) (type default))
     (uuid 5f512149-11af-414a-ae2a-ee32ec2d6d70)
@@ -1399,7 +1328,7 @@
     (stroke (width 0) (type default))
     (uuid 87ee20c7-80c0-406c-8642-a6fc08916a89)
   )
-  (wire (pts (xy 262.89 52.07) (xy 262.89 58.42))
+  (wire (pts (xy 260.35 40.64) (xy 260.35 46.99))
     (stroke (width 0) (type default))
     (uuid 88869468-b1f1-4975-bff7-ab82f2afe5d7)
   )
@@ -1410,10 +1339,6 @@
   (wire (pts (xy 48.26 171.45) (xy 48.26 181.61))
     (stroke (width 0) (type default))
     (uuid 8a7097de-2703-477a-bd97-b9a5d4fbd551)
-  )
-  (wire (pts (xy 67.31 152.4) (xy 67.31 163.83))
-    (stroke (width 0) (type default))
-    (uuid 8c103ab3-c175-4646-9bfd-4cb6be456fb1)
   )
   (wire (pts (xy 101.6 181.61) (xy 110.49 181.61))
     (stroke (width 0) (type default))
@@ -1435,17 +1360,9 @@
     (stroke (width 0) (type default))
     (uuid a392b496-1909-4012-b5ba-c1cc36660b02)
   )
-  (wire (pts (xy 68.58 133.35) (xy 72.39 133.35))
-    (stroke (width 0) (type default))
-    (uuid a615d5d7-2689-4d5f-bd74-40ef18570809)
-  )
   (wire (pts (xy 63.5 133.35) (xy 64.77 133.35))
     (stroke (width 0) (type default))
     (uuid a65d2e78-869b-4f3d-9712-db50fc0c31da)
-  )
-  (wire (pts (xy 182.88 46.99) (xy 186.69 46.99))
-    (stroke (width 0) (type default))
-    (uuid a6642101-bf5a-490e-a9ad-54eb41449e41)
   )
   (wire (pts (xy 215.9 52.07) (xy 177.8 52.07))
     (stroke (width 0) (type default))
@@ -1462,6 +1379,10 @@
   (wire (pts (xy 83.82 25.4) (xy 91.44 25.4))
     (stroke (width 0) (type default))
     (uuid ae178dd4-1e1b-4524-9198-b511e31a7491)
+  )
+  (wire (pts (xy 68.58 133.35) (xy 83.82 133.35))
+    (stroke (width 0) (type default))
+    (uuid b080f540-dd76-4e78-ab60-f2ba41a7c9f5)
   )
   (wire (pts (xy 224.79 63.5) (xy 224.79 66.04))
     (stroke (width 0) (type default))
@@ -1495,7 +1416,7 @@
     (stroke (width 0) (type default))
     (uuid cad0b4e8-128a-4798-908f-30b43dc5c95b)
   )
-  (wire (pts (xy 67.31 173.99) (xy 67.31 181.61))
+  (wire (pts (xy 67.31 172.72) (xy 67.31 181.61))
     (stroke (width 0) (type default))
     (uuid cb735dfe-6011-4de2-8742-c8ea7eb4c819)
   )
@@ -1527,9 +1448,13 @@
     (stroke (width 0) (type default))
     (uuid d3019e01-6341-4954-9036-90a6b56ed9cc)
   )
-  (wire (pts (xy 80.01 147.32) (xy 80.01 163.83))
+  (wire (pts (xy 80.01 147.32) (xy 80.01 165.1))
     (stroke (width 0) (type default))
     (uuid d56e7daa-b58e-43a2-b636-42f20798bce9)
+  )
+  (wire (pts (xy 67.31 152.4) (xy 67.31 165.1))
+    (stroke (width 0) (type default))
+    (uuid d590345a-8ad7-402a-860f-d572ececc773)
   )
   (wire (pts (xy 177.8 66.04) (xy 177.8 67.31))
     (stroke (width 0) (type default))
@@ -1573,14 +1498,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b611567-69c6-4c4a-80bd-300d25760b87)
   )
-  (text "USB-C connection\nfor UART" (at 153.67 33.02 0)
+  (text "USB-C connection\nfor USB-HID" (at 153.67 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ef7d05b-a038-4f11-a0c3-521dbd996b53)
   )
-  (text "we dont need this diode\nbut will save it for future"
-    (at 186.69 34.29 0)
+  (text "USB-OTG connector temporally removed from pcb" (at 186.69 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 95992bb2-048c-4c46-90db-5a3dc1cd22b4)
+    (uuid 83a93043-4265-460b-8d29-faecae33d8a3)
   )
   (text "USB-C connection\nfor UART" (at 39.37 119.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1589,6 +1513,11 @@
   (text "NC" (at 119.38 78.74 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid b8fc6283-35aa-44c0-a091-8aa241314867)
+  )
+  (text "There can be schottky diode between usb 5v \nand 5v power rail, but now we do not need it\nbecause it is already in power selector scheme"
+    (at 129.54 138.43 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5a90e35-e002-4ad1-af87-de2942c0c487)
   )
 
   (label "VBUS2" (at 179.07 33.02 0) (fields_autoplaced)
@@ -1611,7 +1540,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95792850-ef44-4b80-b53f-7bc74b0ee0dd)
   )
-  (label "VBUS2" (at 262.89 52.07 0) (fields_autoplaced)
+  (label "VBUS2" (at 260.35 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ef36505-14e8-40f7-948e-f9dfe52a3b72)
   )
@@ -1644,7 +1573,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1fe5e2ac-e1f6-4fcd-8672-cc8748f90848)
   )
-  (hierarchical_label "USB_OTG_N" (shape input) (at 250.19 68.58 180) (fields_autoplaced)
+  (hierarchical_label "USB_OTG_N" (shape input) (at 247.65 57.15 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2726b848-5e5c-4d97-85a6-4109be477eec)
   )
@@ -1652,7 +1581,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 678b7ad5-6e33-4ef8-b11a-d008a580405a)
   )
-  (hierarchical_label "USB_OTG_P" (shape input) (at 250.19 73.66 180) (fields_autoplaced)
+  (hierarchical_label "USB_OTG_P" (shape input) (at 247.65 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6b67c5db-0d6e-425d-8a9f-738f9a49a1b9)
   )
@@ -1696,7 +1625,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e816eba6-afcb-4804-9a4a-5237f824aa03)
   )
-  (hierarchical_label "GND" (shape input) (at 262.89 83.82 270) (fields_autoplaced)
+  (hierarchical_label "GND" (shape input) (at 260.35 72.39 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f420bfff-8471-47fb-942d-c71eff040dba)
   )
@@ -1710,9 +1639,9 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 182.88 46.99 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp no)
     (uuid 02b10d96-a43b-4a38-b780-4439ade0b8ef)
-    (property "Reference" "VBUS1" (at 181.61 38.1 0)
+    (property "Reference" "VBUS2" (at 181.61 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 179.07 40.64 0)
@@ -1727,9 +1656,6 @@
     (pin "1" (uuid bdb61131-ad26-4691-a8b7-11f68add9d37))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "VBUS1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "VBUS2") (unit 1)
         )
@@ -1745,7 +1671,7 @@
   (symbol (lib_id "Device:C") (at 91.44 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04d98af4-cb5f-4479-b934-3199159dd650)
-    (property "Reference" "C24" (at 93.98 27.94 0)
+    (property "Reference" "C26" (at 93.98 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 93.98 30.48 0)
@@ -1761,9 +1687,6 @@
     (pin "2" (uuid 19d9326e-7f57-47e7-824a-dc0b6e393444))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "C24") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "C26") (unit 1)
         )
@@ -1794,9 +1717,6 @@
     (pin "1" (uuid 3e9e5df4-8839-48e0-827e-81de0d6d2021))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "5V1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "5V1") (unit 1)
         )
@@ -1827,9 +1747,6 @@
     (pin "1" (uuid e413e25f-20b5-482b-b475-acb3ab3d3694))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "VBUS1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "VBUS1") (unit 1)
         )
@@ -1842,10 +1759,60 @@
     )
   )
 
+  (symbol (lib_id "Device:D_TVS") (at 80.01 168.91 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 29c1fd72-54d7-426b-b275-55d7483e8202)
+    (property "Reference" "D1" (at 82.55 167.64 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "H5VL10B" (at 82.55 170.18 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "PMEG2005AEL_315:DIODFN2_98X58X50L26X51N" (at 80.01 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid af1fc894-a66e-4f7f-885c-115d051185b2))
+    (pin "1" (uuid eb0076bc-8fd5-422f-a63e-b65a45874844))
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2ce655ce-6263-4f7d-b9d1-6755a5ada421)
+    (property "Reference" "H1" (at 251.46 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 251.46 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 248.92 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 25.4 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36edb9ea-fced-49c8-bdff-89ab8559bd96)
-    (property "Reference" "R23" (at 27.94 52.0699 0)
+    (property "Reference" "R33" (at 27.94 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "24K" (at 27.94 54.6099 0)
@@ -1861,9 +1828,6 @@
     (pin "2" (uuid 41b9fb69-656e-4ed4-91dc-2402e13bc67b))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R23") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R33") (unit 1)
         )
@@ -1871,100 +1835,6 @@
       (project "usbc_cp2102"
         (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
           (reference "R16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N5819") (at 76.2 133.35 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 501c80b6-7a6f-4113-8a31-2339597fbdeb)
-    (property "Reference" "D2" (at 76.5175 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N5819WS" (at 76.5175 129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 76.2 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (at 76.2 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16412ec0-2fc5-427d-ae4a-6aa9b276a2fa))
-    (pin "2" (uuid 5ae7f145-3e8e-46da-a09f-6aaf527113b3))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "D2") (unit 1)
-        )
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D2") (unit 1)
-        )
-      )
-      (project "usbc_cp2102"
-        (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_TVS") (at 138.43 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 533a6e16-544a-49e4-b8af-2b2cf57b49d7)
-    (property "Reference" "D5" (at 140.97 167.64 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "D_TVS" (at 140.97 170.18 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 138.43 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 8c17f5f8-a25f-4325-9949-41156b343437))
-    (pin "1" (uuid 1f3df6cf-0b09-458b-b63d-410451a01ddd))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:1N5819") (at 190.5 46.99 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 586406fa-269e-4c7e-bfe3-f2c2340dde2d)
-    (property "Reference" "D2" (at 190.8175 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1N5819WS" (at 190.8175 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 190.5 42.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (at 190.5 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 362c1c0f-2342-4ab1-b650-8db1398c432f))
-    (pin "2" (uuid 708bb420-5269-4fd0-84bf-3de9fc5b48ab))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "D2") (unit 1)
-        )
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D6") (unit 1)
-        )
-      )
-      (project "usbc_cp2102"
-        (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
-          (reference "D6") (unit 1)
         )
       )
     )
@@ -1989,9 +1859,6 @@
     (pin "2" (uuid 0146d13c-fa41-413e-a29f-d0f53c3ec782))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "C21") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "C21") (unit 1)
         )
@@ -2004,36 +1871,10 @@
     )
   )
 
-  (symbol (lib_id "Device:D_TVS") (at 149.86 168.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5aeaa2ea-00d4-4908-86b9-15971213d57a)
-    (property "Reference" "D10" (at 152.4 167.64 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "D_TVS" (at 152.4 170.18 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 149.86 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 5475ec89-0ad5-442c-91d0-381a19101db1))
-    (pin "1" (uuid 96d54cfa-0a92-46d4-8019-df07da192439))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 102.87 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60bf6d58-2ae6-44b0-b391-4f62aafb4d0f)
-    (property "Reference" "C25" (at 105.41 27.94 0)
+    (property "Reference" "C27" (at 105.41 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 105.41 30.48 0)
@@ -2049,9 +1890,6 @@
     (pin "2" (uuid c23f65d7-92ba-4d7f-95ac-d3ba70074cb7))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "C25") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "C27") (unit 1)
         )
@@ -2064,19 +1902,19 @@
     )
   )
 
-  (symbol (lib_id "Power_Protection:SRV05-4") (at 262.89 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Power_Protection:SRV05-4") (at 260.35 59.69 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 69b3d555-26c1-4bd3-b20c-e616a84e6937)
-    (property "Reference" "U9" (at 266.5161 55.88 0)
+    (property "Reference" "U9" (at 263.9761 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SRV05-4" (at 266.5161 58.42 0)
+    (property "Value" "SRV05-4" (at 263.9761 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 280.67 82.55 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 278.13 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" (at 262.89 71.12 0)
+    (property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" (at 260.35 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 029fc65b-d910-4fa0-9c79-c56e8eff2b38))
@@ -2094,10 +1932,58 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 125.73 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c4f4997-09e1-4675-96ff-b8c7b8e202cd)
+    (property "Reference" "H2" (at 251.46 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 251.46 127 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 248.92 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a2c1c9e-eba1-4814-ab68-e3b5b94010dd)
+    (property "Reference" "H3" (at 251.46 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 251.46 133.35 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 248.92 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 248.92 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 38.1 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 875eede1-1ab7-4ff2-9465-c0c12f9020ff)
-    (property "Reference" "C23" (at 41.91 59.6899 0)
+    (property "Reference" "C28" (at 41.91 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 41.91 62.2299 0)
@@ -2113,9 +1999,6 @@
     (pin "2" (uuid 77013a3b-fdc3-46d4-a634-4e39358b5cbd))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "C23") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "C28") (unit 1)
         )
@@ -2131,7 +2014,7 @@
   (symbol (lib_id "Device:R") (at 25.4 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94b4c87e-3ec7-4842-a705-68d343162fa4)
-    (property "Reference" "R24" (at 27.94 59.6899 0)
+    (property "Reference" "R34" (at 27.94 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47K" (at 27.94 62.2299 0)
@@ -2147,9 +2030,6 @@
     (pin "2" (uuid 44967414-d323-4951-ac97-beffc5ba762f))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R24") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R34") (unit 1)
         )
@@ -2162,10 +2042,36 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 224.79 59.69 0) (unit 1)
+  (symbol (lib_id "Device:D_TVS") (at 67.31 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 994d7e63-5f11-4730-8ae8-f8f3dee63be6)
+    (property "Reference" "D3" (at 69.85 167.64 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "H5VL10B" (at 69.85 170.18 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "PMEG2005AEL_315:DIODFN2_98X58X50L26X51N" (at 67.31 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 67.31 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 8d9c8fb9-edbb-4c55-9140-ef5d062aec5b))
+    (pin "1" (uuid 072ce125-a6d9-4443-ad6a-2215e7c18a1a))
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 224.79 59.69 0) (unit 1)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 9d007708-a6fb-4219-9ad9-a8e58f41168c)
-    (property "Reference" "C21" (at 228.6 58.4199 0)
+    (property "Reference" "C23" (at 228.6 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 228.6 60.9599 0)
@@ -2181,9 +2087,6 @@
     (pin "2" (uuid 2d1c2422-6d5d-482f-8140-1630cea06404))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "C21") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "C23") (unit 1)
         )
@@ -2199,7 +2102,7 @@
   (symbol (lib_id "Device:R") (at 118.11 73.66 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4722b16-29ee-412e-b6f5-d87042b69125)
-    (property "Reference" "R26" (at 120.65 72.3899 0)
+    (property "Reference" "R32" (at 120.65 72.3899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 120.65 74.9299 0)
@@ -2215,9 +2118,6 @@
     (pin "2" (uuid dd1b63cf-ae84-48b3-9052-a14e09aba332))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R26") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R32") (unit 1)
         )
@@ -2230,148 +2130,34 @@
     )
   )
 
-  (symbol (lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G") (at 119.38 154.94 270) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 248.92 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a83d9491-4cce-46e6-b75d-1b81f4ea1e91)
-    (property "Reference" "D4" (at 121.92 153.6699 90)
+    (uuid a757f6ca-90ff-4b85-ab56-9aba0129e89e)
+    (property "Reference" "H4" (at 251.46 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LESD5D5.0CT1G" (at 121.92 156.2099 90)
+    (property "Value" "MountingHole" (at 251.46 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LESD5D5:TVS_LESD5D5.0CT1G" (at 119.38 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Datasheet" "" (at 119.38 154.94 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 248.92 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTREV" "O" (at 119.38 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "LRC" (at 119.38 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 119.38 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (at 119.38 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (pin "1" (uuid 6dff73da-9721-41e4-b562-beed6388d5f0))
-    (pin "2" (uuid 71fd9104-d2b2-468b-bfd4-fbc7bc697308))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "D4") (unit 1)
-        )
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D4") (unit 1)
-        )
-      )
-      (project "usbc_cp2102"
-        (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
-          (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G") (at 67.31 168.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab9ae684-bc73-4506-8a8a-9293595d6216)
-    (property "Reference" "D1" (at 69.85 167.6399 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LESD5D5.0CT1G" (at 69.85 170.1799 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LESD5D5:TVS_LESD5D5.0CT1G" (at 67.31 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Datasheet" "" (at 67.31 168.91 0)
+    (property "Datasheet" "~" (at 248.92 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PARTREV" "O" (at 67.31 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "LRC" (at 67.31 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 67.31 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (at 67.31 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (pin "1" (uuid 01cea522-a898-4ad2-aaf1-4cb9e6dbe7a4))
-    (pin "2" (uuid 26c745a9-8349-4b19-8de6-349f68a0c363))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "D1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "usbc_cp2102"
-        (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
-          (reference "D5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LESD5D5.0CT1G:LESD5D5.0CT1G") (at 80.01 168.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid abd089fd-f8df-415c-a9c7-c2bc1c3e8fd0)
-    (property "Reference" "D3" (at 82.55 167.6399 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LESD5D5.0CT1G" (at 82.55 170.1799 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LESD5D5:TVS_LESD5D5.0CT1G" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Datasheet" "" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PARTREV" "O" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "LRC" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (at 80.01 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (pin "1" (uuid 3988433c-fb01-4b9c-b49d-d4f47de76e14))
-    (pin "2" (uuid 8b56fe00-89e1-4235-adef-657f13867169))
-    (instances
-      (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "D3") (unit 1)
-        )
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
-          (reference "D3") (unit 1)
-        )
-      )
-      (project "usbc_cp2102"
-        (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
-          (reference "D7") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 162.56 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid ada1a32a-8b1f-425d-85a2-74d6202e06cf)
-    (property "Reference" "USBC1" (at 162.56 39.37 0)
+    (property "Reference" "USBC2" (at 162.56 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 162.56 41.91 0)
@@ -2402,9 +2188,6 @@
     (pin "S1" (uuid 07dac12d-ad9d-4461-b99b-282cdf1c6ea4))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "USBC1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "USBC2") (unit 1)
         )
@@ -2436,9 +2219,6 @@
     (pin "2" (uuid b946f2d4-a9ae-4b42-8c80-f6c89679db2e))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R19") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R19") (unit 1)
         )
@@ -2452,9 +2232,9 @@
   )
 
   (symbol (lib_id "Device:R") (at 215.9 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid c1d608a8-0149-4791-aa61-d2ba171756a1)
-    (property "Reference" "R19" (at 218.44 58.4199 0)
+    (property "Reference" "R25" (at 218.44 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5K1" (at 218.44 60.9599 0)
@@ -2470,9 +2250,6 @@
     (pin "2" (uuid c036fd30-4a9e-41f8-baec-c4e75991ac10))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R19") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R25") (unit 1)
         )
@@ -2504,9 +2281,6 @@
     (pin "2" (uuid 3e4f24ca-a78f-448d-a9dc-35ef568ecc8c))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R17") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R17") (unit 1)
         )
@@ -2522,7 +2296,7 @@
   (symbol (lib_id "Device:R") (at 63.5 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d217f76f-0297-4e58-9087-fa190e8728eb)
-    (property "Reference" "R25" (at 63.5 38.1 90)
+    (property "Reference" "R31" (at 63.5 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4K7" (at 63.5 40.64 90)
@@ -2538,9 +2312,6 @@
     (pin "2" (uuid 7a0bfe3c-cad2-40c1-901d-90a91d0b2d27))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R25") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R31") (unit 1)
         )
@@ -2548,6 +2319,32 @@
       (project "usbc_cp2102"
         (path "/25132d9e-4ec1-4b38-894f-ed48de0d3df4"
           (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:1N5819") (at 133.35 129.54 180) (unit 1)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
+    (uuid e78f95de-7bf3-4ef4-891e-9ce579bed901)
+    (property "Reference" "D2" (at 133.6675 123.19 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SS54" (at 133.6675 125.73 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SMA" (at 133.35 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf" (at 133.35 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2174a568-21f9-4741-8064-3ce1d6ec12f5))
+    (pin "2" (uuid 41cc81f1-7cfa-49eb-8073-9c94c6751033))
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2607,9 +2404,9 @@
   )
 
   (symbol (lib_id "Device:R") (at 208.28 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f220d45c-9137-45f8-ae91-4182eeadbff6)
-    (property "Reference" "R17" (at 210.82 58.4199 0)
+    (property "Reference" "R24" (at 210.82 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5K1" (at 210.82 60.9599 0)
@@ -2625,9 +2422,6 @@
     (pin "2" (uuid 9e936d47-a83a-45dc-8d6f-88699d2220b6))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "R17") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "R24") (unit 1)
         )
@@ -2640,10 +2434,36 @@
     )
   )
 
+  (symbol (lib_id "Device:D_TVS") (at 119.38 154.94 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f3b1a2ea-3ae3-4533-8e60-528eb2495b65)
+    (property "Reference" "D4" (at 121.92 153.67 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "H5VL10B" (at 121.92 156.21 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "PMEG2005AEL_315:DIODFN2_98X58X50L26X51N" (at 119.38 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 119.38 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid cedcbc84-0d5c-4ea1-8b61-5b20ed808120))
+    (pin "1" (uuid b958c3e9-1f0a-4b01-8bdc-9e479da0f765))
+    (instances
+      (project "grip_strength_meter"
+        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 31.75 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3fd4ed1-a1b2-4a2d-9a7a-8db6796ef9d3)
-    (property "Reference" "#PWR04" (at 31.75 71.12 0)
+    (property "Reference" "#PWR01" (at 31.75 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 69.85 0)
@@ -2658,9 +2478,6 @@
     (pin "1" (uuid e948867a-084f-41c8-9907-9f9c573e748a))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "#PWR01") (unit 1)
         )
@@ -2707,9 +2524,6 @@
     (pin "S1" (uuid c05eb83e-fce1-4c3a-8ca1-bba276f966d6))
     (instances
       (project "grip_strength_meter"
-        (path "/1f4b217c-5456-4c03-a123-3ef9839449c6"
-          (reference "USBC1") (unit 1)
-        )
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c4e52578-194d-4bcb-8b62-a4d6dc625100"
           (reference "USBC1") (unit 1)
         )
