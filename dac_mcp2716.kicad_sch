@@ -90,7 +90,7 @@
 
 
   (symbol (lib_id "2023-11-28_17-34-14:MCP4716A0T-E_MAY") (at 121.92 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 3e2d23d7-9010-4be5-aae2-63c243135b45)
     (property "Reference" "U6" (at 142.24 64.77 0)
       (effects (font (size 1.524 1.524)))

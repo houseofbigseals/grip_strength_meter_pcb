@@ -1018,13 +1018,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 173.99 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fa56e48-10bb-4490-b7d9-6906f830357b)
-    (property "Reference" "TP_SCK" (at 171.45 93.98 0)
+    (property "Reference" "SCK1" (at 171.45 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint" (at 176.53 93.4719 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (at 168.91 88.9 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 168.91 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 88.9 0)
@@ -1034,7 +1034,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "TP_SCK") (unit 1)
+          (reference "SCK1") (unit 1)
         )
       )
     )
@@ -1049,7 +1049,7 @@
     (property "Value" "Conn_01x02_Male" (at 161.29 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 163.83 120.65 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 163.83 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 120.65 0)
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "Device:C") (at 134.62 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d2dada1-0060-4b30-af38-0e4f1a49e495)
-    (property "Reference" "C?" (at 138.43 111.7599 0)
+    (property "Reference" "C34" (at 138.43 111.7599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 138.43 114.2999 0)
@@ -1086,7 +1086,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "C?") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -1127,7 +1127,7 @@
     (property "Value" "Conn_01x02_Male" (at 76.835 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 76.2 104.14 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 76.2 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 104.14 0)
@@ -1220,7 +1220,7 @@
     (property "Value" "3.3uH" (at 113.03 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 111.76 83.82 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 111.76 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 83.82 0)
@@ -1240,7 +1240,7 @@
   (symbol (lib_id "Device:C") (at 114.3 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9620bdaf-0b77-4696-9595-5a50dcc329fe)
-    (property "Reference" "C?" (at 118.11 101.5999 0)
+    (property "Reference" "C33" (at 118.11 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 118.11 104.1399 0)
@@ -1257,7 +1257,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "C?") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -1272,7 +1272,7 @@
     (property "Value" "Conn_01x04_Male" (at 76.835 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 76.2 86.36 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 76.2 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 86.36 0)
@@ -1320,13 +1320,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b967e4cd-4cf4-41b6-ac5b-649e8f4c2843)
-    (property "Reference" "TP_3V3" (at 182.88 57.15 0)
+    (property "Reference" "3V3" (at 182.88 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 194.31 58.9279 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 196.85 60.96 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 196.85 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 60.96 0)
@@ -1336,7 +1336,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "TP_3V3") (unit 1)
+          (reference "3V3") (unit 1)
         )
       )
     )
@@ -1345,13 +1345,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 173.99 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb44c430-89c0-423c-8d78-a75f04d9355d)
-    (property "Reference" "TP_DOUT" (at 176.53 81.7879 0)
+    (property "Reference" "DOUT1" (at 176.53 81.7879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 176.53 84.3279 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 179.07 86.36 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 179.07 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 86.36 0)
@@ -1361,7 +1361,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "TP_DOUT") (unit 1)
+          (reference "DOUT1") (unit 1)
         )
       )
     )
@@ -1370,7 +1370,7 @@
   (symbol (lib_id "Device:C") (at 93.98 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf4b6e8f-d664-43bc-b921-ba110889ebea)
-    (property "Reference" "C?" (at 96.52 86.36 0)
+    (property "Reference" "C31" (at 96.52 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 96.52 88.9 0)
@@ -1387,7 +1387,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "C?") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -1396,13 +1396,13 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2f1bdc0-eca5-4812-8a42-030a6f2e84ef)
-    (property "Reference" "TP_GND" (at 182.88 67.31 0)
+    (property "Reference" "GND1" (at 182.88 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 194.31 69.0879 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 196.85 71.12 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 196.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 71.12 0)
@@ -1412,7 +1412,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "TP_GND") (unit 1)
+          (reference "GND1") (unit 1)
         )
       )
     )
@@ -1447,7 +1447,7 @@
   (symbol (lib_id "Device:C") (at 195.58 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d71305d0-bce7-48e1-808a-81a2584b8074)
-    (property "Reference" "C?" (at 199.39 63.4999 0)
+    (property "Reference" "C35" (at 199.39 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 199.39 66.0399 0)
@@ -1464,7 +1464,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "C?") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -1473,7 +1473,7 @@
   (symbol (lib_id "Device:C") (at 106.68 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe28195e-3fc0-49a3-b576-7ec32052d1a8)
-    (property "Reference" "C?" (at 109.22 86.36 0)
+    (property "Reference" "C32" (at 109.22 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 109.22 88.9 0)
@@ -1490,7 +1490,7 @@
     (instances
       (project "grip_strength_meter"
         (path "/1f4b217c-5456-4c03-a123-3ef9839449c6/c230759c-e1af-4cfc-a309-bba7f080798c"
-          (reference "C?") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
