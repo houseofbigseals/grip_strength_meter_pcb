@@ -2303,6 +2303,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9bfab0ab-b025-469d-b227-ea01059a7b4f)
   )
+  (text "MB make that resistors like 1 MOhm, to reduce output current?"
+    (at 243.84 172.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a38223e6-6edd-4f8a-ab35-a7c360fe4cd1)
+  )
   (text "KH-6X6X5H-STM" (at 302.26 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a579ef6f-15f2-4262-a31e-fe16f08086aa)
